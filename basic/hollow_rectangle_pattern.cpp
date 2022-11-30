@@ -3,9 +3,10 @@ using namespace std;
 
 int main(){
     #ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
+        freopen("../input.txt","r",stdin);
+        freopen("../output.txt","w",stdout);
     #endif
+    
     int row, column;
     cin>>row>>column; 
     cout<<"Number of row & column is:"<<row<<" "<<column<<endl;

@@ -1,1 +1,1 @@
-100 is not armstrong number
+3

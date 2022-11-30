@@ -7,10 +7,16 @@ int main(){
         freopen("output.txt", "w", stdout);
     #endif
 
-    int i=0;
-        //0   //0  //1    0
-    i= i++ - --i + ++i - i--;
-    cout<<i<<endl;
+    int n;
+    cin>>n;
+    int a[n];
 
-    return 0;
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
+
+    for(int i = 0;i<n;i++){
+        cout<<a[i]<<" ";
+    }
+
 }
